@@ -16,6 +16,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".week5.debounce.DebounceActivity"
+            android:label="DebounceActivity" />
+        <activity
+            android:name=".week5.throttle.ThrottleActivity"
+            android:label="ThrottleActivity" />
+        <activity
+            android:name=".week5.buffer.BufferActivity"
+            android:label="BufferActivity" />
+        <activity
+            android:name=".week5.combinelatest.CombineLatestActivity"
+            android:label="CombineLatestActivity" />
+        <activity
+            android:name=".week5.behaviorsubject.BehaviorSubjectActivity"
+            android:label="BehaviorSubjectActivity" />
+        <activity
+            android:name=".week6.retrofit.RetrofitActivity"
+            android:label="RetrofitActivity" />
+        <activity
+            android:name=".week6.rxmvvm.RxMvvmActivity"
+            android:label="RxMvvmActivity" />
     </application>
 
 </manifest>
