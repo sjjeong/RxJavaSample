@@ -38,6 +38,7 @@
         <activity
             android:name=".week6.rxmvvm.RxMvvmActivity"
             android:label="RxMvvmActivity" />
+        <activity android:name=".week5.behaviorsubject.SenderActivity" />
     </application>
 
 </manifest>
