@@ -8,6 +8,7 @@ import com.dino.rxsample.week5.buffer.BufferActivity
 import com.dino.rxsample.week5.combinelatest.CombineLatestActivity
 import com.dino.rxsample.week5.debounce.DebounceActivity
 import com.dino.rxsample.week5.throttle.ThrottleActivity
+import com.dino.rxsample.week6.NaverMovieSearchActivity
 
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
@@ -33,6 +34,11 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
     fun behaviorSubject(v: View) {
         val intent = Intent(this, BehaviorSubjectActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun rxMvvm(v: View) {
+        val intent = Intent(this, NaverMovieSearchActivity::class.java)
         startActivity(intent)
     }
 

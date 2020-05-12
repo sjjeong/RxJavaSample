@@ -35,6 +35,7 @@
             android:name=".week5.behaviorsubject.BehaviorSubjectActivity"
             android:label="BehaviorSubjectActivity" />
         <activity android:name=".week5.behaviorsubject.SenderActivity" />
+        <activity android:name=".week6.NaverMovieSearchActivity" />
     </application>
 
 </manifest>

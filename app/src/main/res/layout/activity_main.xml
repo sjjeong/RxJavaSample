@@ -58,6 +58,13 @@
             android:text="6주차"
             android:textSize="24dp" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="rxMvvm"
+            android:text="RxMvvm"
+            android:textAllCaps="false" />
+
     </LinearLayout>
 
 
