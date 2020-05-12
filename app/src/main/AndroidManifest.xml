@@ -34,12 +34,6 @@
         <activity
             android:name=".week5.behaviorsubject.BehaviorSubjectActivity"
             android:label="BehaviorSubjectActivity" />
-        <activity
-            android:name=".week6.retrofit.RetrofitActivity"
-            android:label="RetrofitActivity" />
-        <activity
-            android:name=".week6.rxmvvm.RxMvvmActivity"
-            android:label="RxMvvmActivity" />
         <activity android:name=".week5.behaviorsubject.SenderActivity" />
     </application>
 

@@ -1,4 +1,4 @@
-package com.dino.rxsample.week6.retrofit.network
+package com.dino.rxsample.week6.network
 
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit

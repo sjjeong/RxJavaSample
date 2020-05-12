@@ -1,4 +1,4 @@
-package com.dino.rxsample.week6.retrofit.network
+package com.dino.rxsample.week6.network
 
 import io.reactivex.Single
 import retrofit2.http.GET

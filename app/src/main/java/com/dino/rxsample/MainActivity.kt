@@ -8,8 +8,6 @@ import com.dino.rxsample.week5.buffer.BufferActivity
 import com.dino.rxsample.week5.combinelatest.CombineLatestActivity
 import com.dino.rxsample.week5.debounce.DebounceActivity
 import com.dino.rxsample.week5.throttle.ThrottleActivity
-import com.dino.rxsample.week6.retrofit.RetrofitActivity
-import com.dino.rxsample.week6.rxmvvm.RxMvvmActivity
 
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
@@ -38,13 +36,4 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         startActivity(intent)
     }
 
-    fun retrofit(v: View) {
-        val intent = Intent(this, RetrofitActivity::class.java)
-        startActivity(intent)
-    }
-
-    fun rxmvvm(v: View) {
-        val intent = Intent(this, RxMvvmActivity::class.java)
-        startActivity(intent)
-    }
 }
